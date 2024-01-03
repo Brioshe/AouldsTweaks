@@ -17,7 +17,7 @@ namespace AouldsTweaks
     {
         private const string modGUID = "Aouldrain.AouldsTweaks";
         private const string modName = "AouldsTweaks";
-        private const string modVersion = "0.1.1";
+        private const string modVersion = "1.0.0";
 
         private readonly Harmony harmony = new Harmony(modGUID);
 
