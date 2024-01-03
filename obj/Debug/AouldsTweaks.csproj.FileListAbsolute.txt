@@ -110,4 +110,3 @@ C:\Users\Brandon\Documents\Lethal Company Mod\AouldsTweaks\AouldsTweaks\bin\Debu
 C:\Users\Brandon\Documents\Lethal Company Mod\AouldsTweaks\AouldsTweaks\bin\Debug\MonoMod.Utils.xml
 C:\Users\Brandon\Documents\Lethal Company Mod\AouldsTweaks\AouldsTweaks\bin\Debug\MonoMod.RuntimeDetour.xml
 C:\Users\Brandon\Documents\Lethal Company Mod\AouldsTweaks\AouldsTweaks\obj\Debug\AouldsTweaks.csproj.CopyComplete
-C:\Users\Brandon\Documents\Lethal Company Mod\AouldsTweaks\AouldsTweaks\bin\Debug\LC_API.dll

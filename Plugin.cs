@@ -17,7 +17,7 @@ namespace AouldsTweaks
     {
         private const string modGUID = "Aouldrain.AouldsTweaks";
         private const string modName = "AouldsTweaks";
-        private const string modVersion = "0.1.0";
+        private const string modVersion = "0.1.1";
 
         private readonly Harmony harmony = new Harmony(modGUID);
 
@@ -39,11 +39,11 @@ namespace AouldsTweaks
             mls.LogInfo("▄█▀▀█..▄█▀▄.█▌▐█▌██▪..▐█·.▐█▌▐▀▀▄.▄█▀▀█.▐█·▐█▐▐▌");
             mls.LogInfo("▐█.▪▐▌▐█▌.▐▌▐█▄█▌▐█▌▐▌██..██.▐█•█▌▐█.▪▐▌▐█▌██▐█");
             mls.LogInfo(".▀..▀..▀█▄▀▪.▀▀▀..▀▀▀.▀▀▀▀▀•..▀..▀.▀..▀.▀▀▀▀▀.█▪");
-            mls.LogInfo("AouldsTweaks version " + modVersion + " has successfully loaded.");
+            mls.LogInfo("AouldsTweaks Version [" + modVersion + "] has successfully loaded.");
 
             harmony.PatchAll(typeof(AouldsTweaksBase));
-            harmony.PatchAll(typeof(PlayerControllerBPatch));
-            //harmony.PatchAll(typeof(EnemyReplacerAould));
+            harmony.PatchAll(typeof(Patches.PlayerControllerPatch));
+            harmony.PatchAll(typeof(Patches.Minefix));
         }
     }
 }
