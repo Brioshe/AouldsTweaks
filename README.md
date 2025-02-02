@@ -1,3 +1,7 @@
+!!!
+THIS MOD IS DEPRECATED AND NO LONGER SUPPORTED, IT WILL NOT DO ANYTHING TO YOUR GAME
+!!!
+
 # Aould's Tweaks
 
 A simple collection of modifications for the game Lethal Company made based on input from friends.
